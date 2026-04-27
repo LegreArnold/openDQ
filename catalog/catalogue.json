@@ -1,0 +1,92 @@
+[
+  {
+    "colonne": "an",
+    "nom_complet": "Année",
+    "description": "Année d'exercice budgétaire",
+    "type": "Entier",
+    "exemple": "2022",
+    "obligatoire": true,
+    "regle_qualite": "Doit être entre 2000 et 2024"
+  },
+  {
+    "colonne": "dep",
+    "nom_complet": "Département",
+    "description": "Code du département de la commune",
+    "type": "Texte",
+    "exemple": "75",
+    "obligatoire": true,
+    "regle_qualite": "Ne doit pas être vide"
+  },
+  {
+    "colonne": "inom",
+    "nom_complet": "Nom de la commune",
+    "description": "Nom officiel de la commune",
+    "type": "Texte",
+    "exemple": "PARIS",
+    "obligatoire": true,
+    "regle_qualite": "Ne doit pas être vide"
+  },
+  {
+    "colonne": "pop1",
+    "nom_complet": "Population",
+    "description": "Population municipale de la commune",
+    "type": "Entier",
+    "exemple": "2182174",
+    "obligatoire": true,
+    "regle_qualite": "Doit être supérieure à 0"
+  },
+  {
+    "colonne": "prod",
+    "nom_complet": "Produits de fonctionnement",
+    "description": "Total des recettes de la section de fonctionnement (en milliers d'euros)",
+    "type": "Décimal",
+    "exemple": "7596960.58",
+    "obligatoire": false,
+    "regle_qualite": "Doit être positif"
+  },
+  {
+    "colonne": "charge",
+    "nom_complet": "Charges de fonctionnement",
+    "description": "Total des dépenses de la section de fonctionnement (en milliers d'euros)",
+    "type": "Décimal",
+    "exemple": "7447929.54",
+    "obligatoire": false,
+    "regle_qualite": "Doit être positif"
+  },
+  {
+    "colonne": "dette",
+    "nom_complet": "Dette",
+    "description": "Encours total de la dette de la commune (en milliers d'euros)",
+    "type": "Décimal",
+    "exemple": "9226931.46",
+    "obligatoire": false,
+    "regle_qualite": "Doit être positif ou nul"
+  },
+  {
+    "colonne": "caf",
+    "nom_complet": "Capacité d'autofinancement",
+    "description": "Capacité de la commune à financer ses investissements sur ses propres ressources",
+    "type": "Décimal",
+    "exemple": "435289.19",
+    "obligatoire": false,
+    "regle_qualite": "Peut être négatif (commune en difficulté financière)"
+  },
+  {
+    "colonne": "equip",
+    "nom_complet": "Dépenses d'équipement",
+    "description": "Dépenses d'investissement pour les équipements de la commune",
+    "type": "Décimal",
+    "exemple": "1627417.23",
+    "obligatoire": false,
+    "regle_qualite": "Doit être positif ou nul"
+  },
+  {
+    "colonne": "subv",
+    "nom_complet": "Subventions versées",
+    "description": "Montant des subventions versées par la commune aux associations et organismes",
+    "type": "Décimal",
+    "exemple": "874221.67",
+    "obligatoire": false,
+    "regle_qualite": "Doit être positif ou nul"
+  }
+]

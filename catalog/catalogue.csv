@@ -1,0 +1,11 @@
+colonne,nom_complet,description,type,exemple,obligatoire,regle_qualite
+an,Année,Année d'exercice budgétaire,Entier,2022,True,Doit être entre 2000 et 2024
+dep,Département,Code du département de la commune,Texte,75,True,Ne doit pas être vide
+inom,Nom de la commune,Nom officiel de la commune,Texte,PARIS,True,Ne doit pas être vide
+pop1,Population,Population municipale de la commune,Entier,2182174,True,Doit être supérieure à 0
+prod,Produits de fonctionnement,Total des recettes de la section de fonctionnement (en milliers d'euros),Décimal,7596960.58,False,Doit être positif
+charge,Charges de fonctionnement,Total des dépenses de la section de fonctionnement (en milliers d'euros),Décimal,7447929.54,False,Doit être positif
+dette,Dette,Encours total de la dette de la commune (en milliers d'euros),Décimal,9226931.46,False,Doit être positif ou nul
+caf,Capacité d'autofinancement,Capacité de la commune à financer ses investissements sur ses propres ressources,Décimal,435289.19,False,Peut être négatif (commune en difficulté financière)
+equip,Dépenses d'équipement,Dépenses d'investissement pour les équipements de la commune,Décimal,1627417.23,False,Doit être positif ou nul
+subv,Subventions versées,Montant des subventions versées par la commune aux associations et organismes,Décimal,874221.67,False,Doit être positif ou nul
